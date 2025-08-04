@@ -122,3 +122,9 @@ npm run start
 
 
  ```
+ ####API Testing with Postman
+  ```bash
+user-management-api/kamiwaza_assignment.postman_collection.json
+
+
+ ```
