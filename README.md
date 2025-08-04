@@ -1,4 +1,69 @@
+# User Management Dashboard – Fullstack Assignment
 
+This project is a fullstack web application for managing users. It consists of:
+
+- **Frontend**: React (Vite + TailwindCSS)
+- **Backend**: Laravel REST API
+- **Database**: MySQL
+- **API Testing**: Postman Collection included
+
+---
+## API Reference
+
+#### Get all users
+
+```http
+  GET http://127.0.0.1:8000/api/users
+```
+
+#### Get single user
+
+```http
+  GET http://127.0.0.1:8000/api/users/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### Save user
+
+```http
+  POST http://127.0.0.1:8000/api/users
+```
+
+#### Update user
+
+```http
+  PUT http://127.0.0.1:8000/api/users/${id}
+```
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to update |
+
+#### Delete user
+
+```http
+  DELETE http://127.0.0.1:8000/api/users/${id}
+```
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to delete |
+
+
+## Environment Variables
+
+Edit the .env file with your MySQL database credentials:
+
+`DB_DATABASE=your_db_name`
+
+`DB_USERNAME=your_username`
+
+`DB_PASSWORD=your_password`
 ## Run Locally
 
 Clone the project
