@@ -12,13 +12,13 @@ This project is a fullstack web application for managing users. It consists of:
 
 #### Get all users
 
-```http
+```bash
   GET http://127.0.0.1:8000/api/users
 ```
 
 #### Get single user
 
-```http
+```bash
   GET http://127.0.0.1:8000/api/users/${id}
 ```
 
@@ -28,13 +28,13 @@ This project is a fullstack web application for managing users. It consists of:
 
 #### Save user
 
-```http
+```bash
   POST http://127.0.0.1:8000/api/users
 ```
 
 #### Update user
 
-```http
+```bash
   PUT http://127.0.0.1:8000/api/users/${id}
 ```
 
@@ -45,7 +45,7 @@ This project is a fullstack web application for managing users. It consists of:
 
 #### Delete user
 
-```http
+```bash
   DELETE http://127.0.0.1:8000/api/users/${id}
 ```
 
